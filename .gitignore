@@ -1,0 +1,11 @@
+.DS_Store
+
+node_modules
+
+.next
+
+.env
+
+src/out
+
+yarn-error.logg

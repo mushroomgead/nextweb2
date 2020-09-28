@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "class-properties": { "loose": true }
+      }
+    ],
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-export-default-from",
+    ["@babel/plugin-proposal-decorators", { "legacy": true}],
+    [
+      "module-resolver", {
+        "alias": {
+          "@components": "./src/components",
+          "@link": "./src/lib/router/Link",
+          "@lib": "./src/lib",
+          "@grid": "./src/lib/styles/grid",
+          "@modules": "./src/modules"
+        }
+      }
+    ]
+  ]
+}

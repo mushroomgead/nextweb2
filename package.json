@@ -1,0 +1,95 @@
+{
+  "name": "nextweb",
+  "version": "2.0.0",
+  "description": "An opinionated framework built on top of Next.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "BUNDLE_ANALYZE=browser npm run build",
+    "export": "next export src",
+    "doctoc": "npx doctoc README.md --github"
+  },
+  "bin": {
+    "create-nextweb-app": "./scripts/create/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suranartnc/nextweb.git"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "javascript",
+    "framework"
+  ],
+  "author": "Suranart Niamcome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suranartnc/nextweb/issues"
+  },
+  "homepage": "https://github.com/suranartnc/nextweb#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-export-default-from": "^7.10.4",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.34",
+    "@emotion/styled": "^10.0.27",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@hookform/resolvers": "^0.1.0",
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "axios": "^0.19.2",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "circular-dependency-plugin": "^5.0.2",
+    "compress": "^0.99.0",
+    "core-js": "3.3.6",
+    "dotenv": "^7.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "emotion-theming": "^10.0.27",
+    "express": "^4.16.4",
+    "json-server": "^0.16.1",
+    "jwt-decode": "^2.2.0",
+    "lodash.trimend": "^4.5.1",
+    "lodash.uniqueid": "^4.0.1",
+    "mobx": "^5.15.6",
+    "mobx-react-lite": "^2.2.0",
+    "next": "^9.5.2",
+    "next-routes": "^1.4.2",
+    "nookies": "^2.4.0",
+    "preact": "^10.4.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^6.4.1",
+    "react-waypoint": "^9.0.2",
+    "reflexbox": "^4.0.6",
+    "serve-favicon": "^2.5.0",
+    "striptags": "^3.1.1",
+    "swr": "^0.3.0",
+    "webfontloader": "^1.6.28",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "prettier": "^1.16.4"
+  },
+  "resolutions": {
+    "webpack-bundle-analyzer": "^3.3.2",
+    "minimist": "^1.2.3"
+  }
+}
